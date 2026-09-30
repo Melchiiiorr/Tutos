@@ -1,9 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 403.1" width="500" height="201.6" role="img" aria-labelledby="mfa-t">
-  <title id="mfa-t">MecaFactory3D</title>
-  <!-- MecaFactory3D — logo pour FONDS CLAIRS (monogramme noir + barres jaunes).
-       Vecteur reconstruit depuis le PNG officiel (fidélité 99,4 %), sans fond ni adaptation
-       automatique : un fichier logo doit rester prévisible sur n'importe quel support.
-       Le site web intègre sa propre copie inline pour piloter les couleurs en CSS. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 403.1" width="500" height="201.6" role="img" aria-label="MecaFactory3D">
+  <title>MecaFactory3D</title>
   <path fill="#ffe600" d="M657.5,401.2 999,402.2 969.7,350.3 685.9,350.3ZM460.9,399.2 413.9,319 395.3,349.3 29.4,349.3 27.4,350.3 23.5,359.1 2,394.3 0,401.2 460.9,402.2Z"/>
   <path fill="#0a0a0b" d="M767.1,1 764.2,3.9 535.2,401.2 619.4,402.2 668.3,318 950.1,318 911.9,252.4 706.5,252.4 766.1,147.7 768.1,148.7 797.5,200.6 882.6,200.6ZM266.1,0 498,401.2 500,400.2 618.4,196.7 619.4,191.8 533.3,191.8 503.9,244.6 498,251.5 394.3,74.4 600.8,73.4 600.8,77.3 577.3,115.5 577.3,117.4 662.4,117.4 730.9,1ZM229.9,0 46,319 130.1,319 229.9,147.7 248.5,178.1 248.5,181 168.3,319 253.4,319 290.6,254.4 293.5,256.4 310.2,285.7 291.6,319 375.7,319 394.3,286.7 393.3,282.8Z"/>
 </svg>

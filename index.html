@@ -1,124 +1,110 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MecaFactory3D — Tutoriels & notices de pièces 3D</title>
-  <meta name="description" content="Tutoriels et notices de montage des pièces 3D MecaFactory3D : supports clavier mécanique custom et bien plus.">
-  <meta name="theme-color" content="#0a0a0b">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap">
-  <link rel="stylesheet" href="assets/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MecaFactory3D — Tutoriels &amp; notices de montage</title>
+<meta name="description" content="Tutoriels et notices de montage des pièces imprimées en 3D MecaFactory3D.">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
+<body data-page="home">
 
-<header class="header">
-  <div class="container">
+<header class="site-header">
+  <div class="wrap">
     <a class="brand" href="./">
-      <svg class="logo" viewBox="0 0 1000 403.1" role="img" aria-label="MecaFactory3D">
-        <path class="logo-bars" d="M657.5,401.2 999,402.2 969.7,350.3 685.9,350.3ZM460.9,399.2 413.9,319 395.3,349.3 29.4,349.3 27.4,350.3 23.5,359.1 2,394.3 0,401.2 460.9,402.2Z"/>
-        <path class="logo-glyph" d="M767.1,1 764.2,3.9 535.2,401.2 619.4,402.2 668.3,318 950.1,318 911.9,252.4 706.5,252.4 766.1,147.7 768.1,148.7 797.5,200.6 882.6,200.6ZM266.1,0 498,401.2 500,400.2 618.4,196.7 619.4,191.8 533.3,191.8 503.9,244.6 498,251.5 394.3,74.4 600.8,73.4 600.8,77.3 577.3,115.5 577.3,117.4 662.4,117.4 730.9,1ZM229.9,0 46,319 130.1,319 229.9,147.7 248.5,178.1 248.5,181 168.3,319 253.4,319 290.6,254.4 293.5,256.4 310.2,285.7 291.6,319 375.7,319 394.3,286.7 393.3,282.8Z"/>
+      <svg viewBox="0 0 1000 403.1" role="img" aria-label="MecaFactory3D">
+        <path class="mark-bars" d="M657.5,401.2 999,402.2 969.7,350.3 685.9,350.3ZM460.9,399.2 413.9,319 395.3,349.3 29.4,349.3 27.4,350.3 23.5,359.1 2,394.3 0,401.2 460.9,402.2Z"/>
+        <path class="mark-glyph" d="M767.1,1 764.2,3.9 535.2,401.2 619.4,402.2 668.3,318 950.1,318 911.9,252.4 706.5,252.4 766.1,147.7 768.1,148.7 797.5,200.6 882.6,200.6ZM266.1,0 498,401.2 500,400.2 618.4,196.7 619.4,191.8 533.3,191.8 503.9,244.6 498,251.5 394.3,74.4 600.8,73.4 600.8,77.3 577.3,115.5 577.3,117.4 662.4,117.4 730.9,1ZM229.9,0 46,319 130.1,319 229.9,147.7 248.5,178.1 248.5,181 168.3,319 253.4,319 290.6,254.4 293.5,256.4 310.2,285.7 291.6,319 375.7,319 394.3,286.7 393.3,282.8Z"/>
       </svg>
-      <span>
-        <b>MecaFactory<em>3D</em></b>
-        <small data-i18n="tagline">Tutoriels &amp; notices de pièces 3D</small>
-      </span>
+      <span>MecaFactory3D</span>
     </a>
+
     <nav class="langs" aria-label="Langue">
-      <button data-lang="fr" type="button" aria-pressed="true">FR</button>
-      <button data-lang="en" type="button" aria-pressed="false">EN</button>
-      <button data-lang="es" type="button" aria-pressed="false">ES</button>
-      <button data-lang="de" type="button" aria-pressed="false">DE</button>
+      <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      <button type="button" data-lang="es" aria-pressed="false">ES</button>
+      <button type="button" data-lang="de" aria-pressed="false">DE</button>
     </nav>
-    <a class="btn ghost sm" href="https://pro.mecafactory.net" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>
-      <span data-i18n="linktreeBtn">Linktree</span>
+
+    <a class="btn quiet sm pro-link" href="https://pro.mecafactory.net" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+      </svg>
+      <span data-i18n="navPro">Boutiques &amp; réseaux</span>
     </a>
   </div>
 </header>
 
 <main>
   <section class="hero">
-    <div class="container">
-      <p class="kicker" data-i18n="kicker">Impression 3D · Fabrication · DIY</p>
-      <h1><span data-i18n="heroTitle">Les tutoriels de montage de mes pièces 3D</span></h1>
-      <p data-i18n="heroSub">Chaque création MecaFactory3D est livrée avec une notice claire, illustrée et pas à pas.</p>
-      <nav>
-        <a class="btn primary" href="#tutos" data-i18n="heroCta">Voir les tutoriels</a>
-        <a class="btn ghost" href="https://pro.mecafactory.net" target="_blank" rel="noopener" data-i18n="heroCta2">Boutiques &amp; réseaux pro</a>
-      </nav>
+    <div class="wrap">
+      <h1 data-i18n="heroTitle">Tutoriels &amp; notices de montage</h1>
+      <p class="lead" data-i18n="heroSub">Notices pas à pas pour monter les pièces imprimées en 3D MecaFactory3D.</p>
+      <div class="hero-actions">
+        <a class="btn solid" href="#tutoriels" data-i18n="heroCta">Voir les tutoriels</a>
+      </div>
     </div>
   </section>
 
-  <section class="tutos" id="tutos">
-    <div class="container">
-      <div class="head">
-        <h2 data-i18n="tutosTitle">Les tutoriels</h2>
+  <section class="section" id="tutoriels">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-i18n="tutosTitle">Tutoriels</h2>
         <span data-i18n="tutosCount">1 tutoriel</span>
       </div>
 
-      <div class="grid">
-        <article class="card">
-          <figure>
-            <span class="badge" data-i18n="badge">Nouveau</span>
-            <svg viewBox="0 0 320 130" aria-hidden="true">
-              <path d="M30 112h260l-24-88H54Z" fill="#15161a" stroke="#ffe600" stroke-width="2.5"/>
-              <g fill="#26272e">
-                <rect x="62" y="34" width="26" height="20" rx="4"/><rect x="92" y="34" width="26" height="20" rx="4"/>
-                <rect x="122" y="34" width="26" height="20" rx="4"/><rect x="152" y="34" width="26" height="20" rx="4"/>
-                <rect x="182" y="34" width="26" height="20" rx="4"/><rect x="212" y="34" width="32" height="20" rx="4"/>
-                <rect x="62" y="58" width="32" height="20" rx="4"/><rect x="98" y="58" width="26" height="20" rx="4"/>
-                <rect x="128" y="58" width="26" height="20" rx="4"/><rect x="158" y="58" width="26" height="20" rx="4"/>
-                <rect x="188" y="58" width="56" height="20" rx="4"/>
-                <rect x="86" y="82" width="134" height="20" rx="4"/>
-              </g>
-              <rect x="92" y="34" width="26" height="20" rx="4" fill="#ffe600"/>
-              <rect x="188" y="58" width="56" height="20" rx="4" fill="#ffe600" opacity=".35"/>
+      <article class="doc">
+        <img class="doc-cover" src="assets/notice-cover.webp" width="132" height="187" alt="Couverture de la notice Support de clavier">
+        <div>
+          <p class="eyebrow" data-i18n="docLabel">Notice PDF · 19 pages</p>
+          <h3 data-i18n="tuto1Title">Stand support d'exposition — clavier mécanique custom</h3>
+          <p class="doc-text" data-i18n="tuto1Desc">Assemblage sans colle ni outil, en 5 étapes, avec vues éclatées et repères.</p>
+        </div>
+        <div class="doc-actions">
+          <a class="btn solid" href="noticeclavier/">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
             </svg>
-          </figure>
-          <div>
-            <h3 data-i18n="tuto1Title">Stand support d'exposition — clavier mécanique custom</h3>
-            <p data-i18n="tuto1Desc">Notice illustrée pas à pas pour assembler le support d'exposition de votre clavier mécanique custom.</p>
-            <small>📄 PDF · <span data-i18n="pages">19 pages</span> · 🧩 <span data-i18n="tuto1Level">Montage facile</span></small>
-            <footer>
-              <a class="btn primary sm" href="noticeclavier/" data-i18n="tuto1Open">Ouvrir le tutoriel</a>
-              <a class="btn ghost sm" href="noticeclavier/Notice_montage_support.pdf" target="_blank" rel="noopener" data-i18n="tuto1Download">Télécharger le PDF</a>
-            </footer>
-          </div>
-        </article>
-
-        <article class="card soon">
-          <figure><span style="font-size:2.6rem;opacity:.5">🖨️</span></figure>
-          <div>
-            <h3 data-i18n="soonTitle">Prochains tutoriels…</h3>
-            <p data-i18n="soonDesc">De nouvelles notices de montage arrivent bientôt pour mes autres créations 3D.</p>
-          </div>
-        </article>
-      </div>
+            <span data-i18n="tuto1Open">Consulter la notice</span>
+          </a>
+          <a class="btn quiet" href="noticeclavier/Notice_montage_support.pdf" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <path d="m7 10 5 5 5-5"/>
+              <path d="M12 15V3"/>
+            </svg>
+            <span data-i18n="tuto1Download">Télécharger le PDF</span>
+          </a>
+        </div>
+      </article>
     </div>
   </section>
 
-  <section class="container banner">
-    <div>
-      <h2 data-i18n="bannerTitle">Boutiques &amp; réseaux pro</h2>
-      <p data-i18n="bannerDesc">Toutes mes boutiques et mes réseaux pro sont réunis sur mon Linktree.</p>
+  <section class="cta">
+    <div class="wrap cta-inner">
+      <div>
+        <h2 data-i18n="ctaTitle">Boutiques &amp; réseaux</h2>
+        <p data-i18n="ctaText">Toutes mes boutiques et mes réseaux pro réunis sur une seule page.</p>
+      </div>
+      <a class="btn solid" href="https://pro.mecafactory.net" target="_blank" rel="noopener">
+        <span data-i18n="ctaBtn">pro.mecafactory.net</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M7 17 17 7"/>
+          <path d="M9 7h8v8"/>
+        </svg>
+      </a>
     </div>
-    <a class="btn primary" href="https://pro.mecafactory.net" target="_blank" rel="noopener">
-      <span data-i18n="bannerCta">pro.mecafactory.net</span>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
-    </a>
   </section>
 </main>
 
-<footer class="footer">
-  <div class="container">
-    <svg class="logo" viewBox="0 0 1000 403.1" role="img" aria-label="MecaFactory3D">
-      <path class="logo-bars" d="M657.5,401.2 999,402.2 969.7,350.3 685.9,350.3ZM460.9,399.2 413.9,319 395.3,349.3 29.4,349.3 27.4,350.3 23.5,359.1 2,394.3 0,401.2 460.9,402.2Z"/>
-      <path class="logo-glyph" d="M767.1,1 764.2,3.9 535.2,401.2 619.4,402.2 668.3,318 950.1,318 911.9,252.4 706.5,252.4 766.1,147.7 768.1,148.7 797.5,200.6 882.6,200.6ZM266.1,0 498,401.2 500,400.2 618.4,196.7 619.4,191.8 533.3,191.8 503.9,244.6 498,251.5 394.3,74.4 600.8,73.4 600.8,77.3 577.3,115.5 577.3,117.4 662.4,117.4 730.9,1ZM229.9,0 46,319 130.1,319 229.9,147.7 248.5,178.1 248.5,181 168.3,319 253.4,319 290.6,254.4 293.5,256.4 310.2,285.7 291.6,319 375.7,319 394.3,286.7 393.3,282.8Z"/>
-    </svg>
-    <p><span data-i18n="footerLine">Tutoriels de pièces imprimées en 3D.</span> <b>MecaFactory3D</b></p>
-    <a href="https://pro.mecafactory.net" target="_blank" rel="noopener">pro.mecafactory.net ↗</a>
+<footer class="site-footer">
+  <div class="wrap">
+    <p><span class="brand-name">MecaFactory3D</span> — <span data-i18n="footerLine">pièces imprimées en 3D et notices de montage.</span></p>
+    <p><a href="https://pro.mecafactory.net" target="_blank" rel="noopener">pro.mecafactory.net</a></p>
   </div>
 </footer>
 

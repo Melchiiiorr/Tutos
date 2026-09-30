@@ -1,173 +1,176 @@
-/* MecaFactory3D — i18n : FR (défaut), EN, ES, DE */
+/* MecaFactory3D — traductions du site tuto.mecafactory.net.
+   Le français est la langue de référence ; le choix est mémorisé dans le navigateur. */
 
-const LANGS = ["fr", "en", "es", "de"];
-const KEY = "mf-lang";
-
-const I18N = {
+var I18N = {
   fr: {
-    tagline: "Tutoriels & notices de pièces 3D",
-    linktreeBtn: "Linktree",
-    kicker: "Impression 3D · Fabrication · DIY",
-    heroTitle: "Les tutoriels de montage de mes pièces 3D",
-    heroSub: "Chaque création MecaFactory3D est livrée avec une notice claire, illustrée et pas à pas.",
+    langLabel: "Langue",
+    navPro: "Boutiques & réseaux",
+    heroTitle: "Tutoriels & notices de montage",
+    heroSub: "Notices pas à pas pour monter les pièces imprimées en 3D MecaFactory3D.",
     heroCta: "Voir les tutoriels",
-    heroCta2: "Boutiques & réseaux pro",
-    tutosTitle: "Les tutoriels",
+    tutosTitle: "Tutoriels",
     tutosCount: "1 tutoriel",
-    badge: "Nouveau",
+    docLabel: "Notice PDF · 19 pages",
     tuto1Title: "Stand support d'exposition — clavier mécanique custom",
-    tuto1Desc: "Notice illustrée pas à pas pour assembler le support d'exposition de votre clavier mécanique custom.",
-    pages: "19 pages",
-    tuto1Level: "Montage facile",
-    tuto1Open: "Ouvrir le tutoriel",
+    tuto1Desc: "Assemblage sans colle ni outil, en 5 étapes, avec vues éclatées et repères.",
+    tuto1Open: "Consulter la notice",
     tuto1Download: "Télécharger le PDF",
-    soonTitle: "Prochains tutoriels…",
-    soonDesc: "De nouvelles notices de montage arrivent bientôt pour mes autres créations 3D.",
-    bannerTitle: "Boutiques & réseaux pro",
-    bannerDesc: "Toutes mes boutiques et mes réseaux pro sont réunis sur mon Linktree.",
-    bannerCta: "pro.mecafactory.net",
-    footerLine: "Tutoriels de pièces imprimées en 3D.",
-    back: "Retour à l'accueil",
-    noticeKicker: "Notice de montage · PDF",
+    ctaTitle: "Boutiques & réseaux",
+    ctaText: "Toutes mes boutiques et mes réseaux pro réunis sur une seule page.",
+    ctaBtn: "pro.mecafactory.net",
+    footerLine: "pièces imprimées en 3D et notices de montage.",
+    back: "Retour aux tutoriels",
+    noticeLabel: "Notice de montage · PDF",
     noticeTitle: "Support clavier mécanique custom",
-    noticeSub: "Notice de montage illustrée du stand support d'exposition pour clavier mécanique custom.",
+    noticeSub: "Stand support d'exposition pour clavier mécanique custom : deux flancs, une barre transversale, deux goupilles.",
     download: "Télécharger le PDF",
     fullscreen: "Plein écran",
     viewerLabel: "Notice — lecture intégrée",
-    openPdf: "Ouvrir le PDF dans un nouvel onglet"
+    openPdf: "Ouvrir dans un nouvel onglet",
+    fallbackText: "Ce navigateur ne peut pas afficher le PDF directement."
   },
+
   en: {
-    tagline: "3D printed parts tutorials & guides",
-    linktreeBtn: "Linktree",
-    kicker: "3D Printing · Making · DIY",
-    heroTitle: "Assembly tutorials for my 3D printed parts",
-    heroSub: "Every MecaFactory3D creation comes with a clear, illustrated, step-by-step guide.",
-    heroCta: "Browse tutorials",
-    heroCta2: "Shops & pro networks",
+    langLabel: "Language",
+    navPro: "Shops & social",
+    heroTitle: "Tutorials & assembly guides",
+    heroSub: "Step-by-step guides to build MecaFactory3D's 3D-printed parts.",
+    heroCta: "Browse the tutorials",
     tutosTitle: "Tutorials",
     tutosCount: "1 tutorial",
-    badge: "New",
+    docLabel: "PDF guide · 19 pages",
     tuto1Title: "Display stand — custom mechanical keyboard",
-    tuto1Desc: "Step-by-step illustrated guide to build the display stand for your custom mechanical keyboard.",
-    pages: "19 pages",
-    tuto1Level: "Easy build",
-    tuto1Open: "Open tutorial",
-    tuto1Download: "Download PDF",
-    soonTitle: "More tutorials soon…",
-    soonDesc: "New assembly guides for my other 3D creations are coming soon.",
-    bannerTitle: "Shops & pro networks",
-    bannerDesc: "All my shops and pro networks are gathered on my Linktree.",
-    bannerCta: "pro.mecafactory.net",
-    footerLine: "Tutorials for 3D printed parts.",
-    back: "Back to home",
-    noticeKicker: "Assembly guide · PDF",
+    tuto1Desc: "Assembled without glue or tools, in 5 steps, with exploded views and callouts.",
+    tuto1Open: "Open the guide",
+    tuto1Download: "Download the PDF",
+    ctaTitle: "Shops & social",
+    ctaText: "All my shops and professional accounts gathered on a single page.",
+    ctaBtn: "pro.mecafactory.net",
+    footerLine: "3D-printed parts and assembly guides.",
+    back: "Back to the tutorials",
+    noticeLabel: "Assembly guide · PDF",
     noticeTitle: "Custom mechanical keyboard stand",
-    noticeSub: "Illustrated assembly guide for the custom mechanical keyboard display stand.",
-    download: "Download PDF",
-    fullscreen: "Fullscreen",
+    noticeSub: "Display stand for a custom mechanical keyboard: two sides, one crossbar, two pins.",
+    download: "Download the PDF",
+    fullscreen: "Full screen",
     viewerLabel: "Guide — embedded reader",
-    openPdf: "Open the PDF in a new tab"
+    openPdf: "Open in a new tab",
+    fallbackText: "This browser cannot display the PDF directly."
   },
+
   es: {
-    tagline: "Tutoriales y guías de piezas 3D",
-    linktreeBtn: "Linktree",
-    kicker: "Impresión 3D · Fabricación · DIY",
-    heroTitle: "Tutoriales de montaje de mis piezas 3D",
-    heroSub: "Cada creación de MecaFactory3D incluye una guía clara, ilustrada y paso a paso.",
+    langLabel: "Idioma",
+    navPro: "Tiendas y redes",
+    heroTitle: "Tutoriales y guías de montaje",
+    heroSub: "Guías paso a paso para montar las piezas impresas en 3D de MecaFactory3D.",
     heroCta: "Ver los tutoriales",
-    heroCta2: "Tiendas y redes pro",
     tutosTitle: "Tutoriales",
     tutosCount: "1 tutorial",
-    badge: "Nuevo",
-    tuto1Title: "Soporte expositor — teclado mecánico custom",
-    tuto1Desc: "Guía ilustrada paso a paso para montar el soporte expositor de tu teclado mecánico custom.",
-    pages: "19 páginas",
-    tuto1Level: "Montaje fácil",
-    tuto1Open: "Abrir el tutorial",
-    tuto1Download: "Descargar PDF",
-    soonTitle: "Próximos tutoriales…",
-    soonDesc: "Pronto llegarán nuevas guías de montaje para mis otras creaciones 3D.",
-    bannerTitle: "Tiendas y redes pro",
-    bannerDesc: "Todas mis tiendas y redes pro están reunidas en mi Linktree.",
-    bannerCta: "pro.mecafactory.net",
-    footerLine: "Tutoriales de piezas impresas en 3D.",
-    back: "Volver al inicio",
-    noticeKicker: "Guía de montaje · PDF",
-    noticeTitle: "Soporte para teclado mecánico custom",
-    noticeSub: "Guía de montaje ilustrada del soporte expositor para teclado mecánico custom.",
-    download: "Descargar PDF",
+    docLabel: "Guía PDF · 19 páginas",
+    tuto1Title: "Soporte de exposición — teclado mecánico personalizado",
+    tuto1Desc: "Montaje sin cola ni herramientas, en 5 pasos, con vistas explosionadas.",
+    tuto1Open: "Ver la guía",
+    tuto1Download: "Descargar el PDF",
+    ctaTitle: "Tiendas y redes",
+    ctaText: "Todas mis tiendas y redes profesionales reunidas en una sola página.",
+    ctaBtn: "pro.mecafactory.net",
+    footerLine: "piezas impresas en 3D y guías de montaje.",
+    back: "Volver a los tutoriales",
+    noticeLabel: "Guía de montaje · PDF",
+    noticeTitle: "Soporte para teclado mecánico",
+    noticeSub: "Soporte de exposición para teclado mecánico: dos laterales, una barra y dos pasadores.",
+    download: "Descargar el PDF",
     fullscreen: "Pantalla completa",
-    viewerLabel: "Guía — lector integrado",
-    openPdf: "Abrir el PDF en una pestaña nueva"
+    viewerLabel: "Guía — lectura integrada",
+    openPdf: "Abrir en una pestaña nueva",
+    fallbackText: "Este navegador no puede mostrar el PDF directamente."
   },
+
   de: {
-    tagline: "Tutorials & Anleitungen für 3D-Teile",
-    linktreeBtn: "Linktree",
-    kicker: "3D-Druck · Fertigung · DIY",
-    heroTitle: "Montage-Tutorials für meine 3D-Teile",
-    heroSub: "Jede MecaFactory3D-Kreation kommt mit einer klaren, illustrierten Schritt-für-Schritt-Anleitung.",
-    heroCta: "Tutorials ansehen",
-    heroCta2: "Shops & Pro-Netzwerke",
+    langLabel: "Sprache",
+    navPro: "Shops & Netzwerke",
+    heroTitle: "Tutorials & Montageanleitungen",
+    heroSub: "Schritt-für-Schritt-Anleitungen für die 3D-gedruckten Teile von MecaFactory3D.",
+    heroCta: "Zu den Tutorials",
     tutosTitle: "Tutorials",
     tutosCount: "1 Tutorial",
-    badge: "Neu",
-    tuto1Title: "Präsentationsständer — Custom-Mechanik-Tastatur",
-    tuto1Desc: "Illustrierte Schritt-für-Schritt-Anleitung für den Ständer deiner Custom-Mechanik-Tastatur.",
-    pages: "19 Seiten",
-    tuto1Level: "Einfacher Aufbau",
-    tuto1Open: "Tutorial öffnen",
-    tuto1Download: "PDF laden",
-    soonTitle: "Weitere Tutorials folgen…",
-    soonDesc: "Bald erscheinen neue Montageanleitungen für meine weiteren 3D-Kreationen.",
-    bannerTitle: "Shops & Pro-Netzwerke",
-    bannerDesc: "Alle meine Shops und Pro-Netzwerke sind auf meinem Linktree gebündelt.",
-    bannerCta: "pro.mecafactory.net",
-    footerLine: "Tutorials für 3D-gedruckte Teile.",
-    back: "Zurück zur Startseite",
-    noticeKicker: "Montageanleitung · PDF",
-    noticeTitle: "Ständer für Custom-Mechanik-Tastatur",
-    noticeSub: "Illustrierte Montageanleitung für den Präsentationsständer einer Custom-Mechanik-Tastatur.",
-    download: "PDF laden",
+    docLabel: "PDF-Anleitung · 19 Seiten",
+    tuto1Title: "Ausstellungsständer — mechanische Custom-Tastatur",
+    tuto1Desc: "Montage ohne Kleber und Werkzeug, in 5 Schritten, mit Explosionszeichnungen.",
+    tuto1Open: "Anleitung öffnen",
+    tuto1Download: "PDF herunterladen",
+    ctaTitle: "Shops & Netzwerke",
+    ctaText: "Alle meine Shops und professionellen Kanäle auf einer Seite.",
+    ctaBtn: "pro.mecafactory.net",
+    footerLine: "3D-gedruckte Teile und Montageanleitungen.",
+    back: "Zurück zu den Tutorials",
+    noticeLabel: "Montageanleitung · PDF",
+    noticeTitle: "Ständer für mechanische Tastatur",
+    noticeSub: "Ausstellungsständer für eine Custom-Tastatur: zwei Seitenteile, eine Stange, zwei Stifte.",
+    download: "PDF herunterladen",
     fullscreen: "Vollbild",
-    viewerLabel: "Anleitung — integrierter Betrachter",
-    openPdf: "PDF in neuem Tab öffnen"
+    viewerLabel: "Anleitung — integrierter Reader",
+    openPdf: "In neuem Tab öffnen",
+    fallbackText: "Dieser Browser kann das PDF nicht direkt anzeigen."
   }
 };
 
-const TITLES = {
-  fr: "MecaFactory3D — Tutoriels & notices de pièces 3D",
-  en: "MecaFactory3D — 3D printed parts tutorials & guides",
-  es: "MecaFactory3D — Tutoriales y guías de piezas 3D",
-  de: "MecaFactory3D — Tutorials & Anleitungen für 3D-Teile"
+var TITLES = {
+  fr: {
+    home: "MecaFactory3D — Tutoriels & notices de montage",
+    notice: "Notice — Support clavier mécanique custom | MecaFactory3D"
+  },
+  en: {
+    home: "MecaFactory3D — Tutorials & assembly guides",
+    notice: "Guide — Custom mechanical keyboard stand | MecaFactory3D"
+  },
+  es: {
+    home: "MecaFactory3D — Tutoriales y guías de montaje",
+    notice: "Guía — Soporte para teclado mecánico | MecaFactory3D"
+  },
+  de: {
+    home: "MecaFactory3D — Tutorials & Montageanleitungen",
+    notice: "Anleitung — Ständer für mechanische Tastatur | MecaFactory3D"
+  }
 };
 
-const read = (k) => { try { return localStorage.getItem(k); } catch { return null; } };
-const write = (k, v) => { try { localStorage.setItem(k, v); } catch { /* mode privé */ } };
+var LANGS = ["fr", "en", "es", "de"];
+var STORAGE_KEY = "mf-lang";
 
-function detect() {
-  const saved = read(KEY);
-  if (LANGS.includes(saved)) return saved;
-  const nav = navigator.language.slice(0, 2).toLowerCase();
-  return LANGS.includes(nav) ? nav : "fr";
+function detectLang() {
+  var saved = localStorage.getItem(STORAGE_KEY);
+  if (LANGS.indexOf(saved) !== -1) return saved;
+
+  var nav = (navigator.language || "fr").slice(0, 2).toLowerCase();
+  return LANGS.indexOf(nav) !== -1 ? nav : "fr";
 }
 
-function apply(lang) {
-  const dict = I18N[lang] ?? I18N.fr;
+function applyLang(lang) {
+  var dict = I18N[lang];
+  var page = document.body.getAttribute("data-page") || "home";
+
   document.documentElement.lang = lang;
-  document.title = TITLES[lang];
+  document.title = TITLES[lang][page];
 
-  for (const el of document.querySelectorAll("[data-i18n]")) {
-    const val = dict[el.dataset.i18n];
-    if (val) el.textContent = val;
-  }
-  for (const btn of document.querySelectorAll(".langs button")) {
-    btn.setAttribute("aria-pressed", String(btn.dataset.lang === lang));
-  }
-  write(KEY, lang);
+  document.querySelectorAll("[data-i18n]").forEach(function (node) {
+    var value = dict[node.getAttribute("data-i18n")];
+    if (value) node.textContent = value;
+  });
+
+  var langs = document.querySelector(".langs");
+  if (langs) langs.setAttribute("aria-label", dict.langLabel);
+
+  document.querySelectorAll("[data-lang]").forEach(function (button) {
+    button.setAttribute("aria-pressed", button.getAttribute("data-lang") === lang ? "true" : "false");
+  });
+
+  localStorage.setItem(STORAGE_KEY, lang);
 }
 
-document.querySelectorAll(".langs button").forEach((btn) => {
-  btn.addEventListener("click", () => apply(btn.dataset.lang));
+document.querySelectorAll("[data-lang]").forEach(function (button) {
+  button.addEventListener("click", function () {
+    applyLang(button.getAttribute("data-lang"));
+  });
 });
 
-apply(detect());
+applyLang(detectLang());
